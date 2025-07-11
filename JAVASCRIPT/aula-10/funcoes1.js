@@ -21,4 +21,26 @@ const resultado = somar(2, 3)
 console.log(resultado);
 console.log(resultado / 10);
 
-// ! 26:45
+console.clear();
+
+// ---------------------------------
+// FUNÇÕES ANÔNIMAS
+
+const dobroDoNumero = function (numero) {
+  return numero * 2;
+};
+
+const dobro = dobroDoNumero(2)
+console.log(dobro)
+
+// -----------------------------
+// ARROW FUNCTIONS: Função Seta
+
+const subtrair = (numero1, numero2) => {
+  return numero1 - numero2;
+};
+
+const multiplicar = (numero1, numero2) => numero1 * numero2;
+
+const triploDoNumero = numero => numero * 3
+
