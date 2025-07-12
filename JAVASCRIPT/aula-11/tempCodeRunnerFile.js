@@ -15,10 +15,7 @@ const displayWelcomeToBackEndCourse = welcome("Back-end em Node.js");
 
 displayWelcomeToFrontEndCourse("Walisson Silva");
 
-console.clear();
+
 
 // * 2.Função que recebe outra função como parâmetro
 
-const somar = (num1, num2) => num1 + num2;
-
-// ! 16:13
