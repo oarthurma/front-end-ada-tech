@@ -45,8 +45,11 @@ console.clear();
 console.log(pessoaEncontrada);
 
 // 3. Array.prototype.findIndex(): muito parecido com o find(),
-// porém o indice do elemento encontrado
+//                                 porém o indice do elemento encontrado
 
-// ! 58:39
-// ! front
-// ! git push origin main
+const indiceDaPessoaEncontrada = pessoas.findIndex(
+  (pessoa) => pessoa.idade > 50 && pessoa.altura < 1.7
+);
+
+console.clear();
+console.log(indiceDaPessoaEncontrada);
