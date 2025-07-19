@@ -26,6 +26,15 @@ console.log(todosPositivos);
 
 const todosMarioresDeIdade = pessoas.every((pessoa) => pessoa.idade >= 18);
 
-// some
+console.log(todosMarioresDeIdade);
 
-// ! 8:12
+// Array.prototype.some(): verificar se algum elemento do array torna verdadeira uma determinada
+//                         condição retornada pela função
+
+console.clear();
+
+const numeros2 = [-1, 3, 7, -3, 5];
+
+const retorno = numeros2.some((numero) => numero > 0);
+
+console.log(retorno);
