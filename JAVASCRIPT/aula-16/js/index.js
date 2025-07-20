@@ -2,13 +2,13 @@
 
 // then/catch
 
-// fetch("https://viacep.com.br/ws/01001000/json/")
-//   .then((resposta) => {
-//     resposta.json().then((dados) => console.log(dados));
-//   })
-//   .catch((erro) => {
-//     console.log(erro);
-//   });
+fetch("https://viacep.com.br/ws/01001000/json/")
+  .then((resposta) => {
+    resposta.json().then((dados) => console.log(dados));
+  })
+  .catch((erro) => {
+    console.log(erro);
+  });
 
 // async / await
 
@@ -25,5 +25,3 @@ async function obterDadosDoCep() {
 }
 
 obterDadosDoCep();
-
-// ! 27:56 - Consumo de API
