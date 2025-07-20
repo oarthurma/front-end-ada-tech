@@ -28,4 +28,4 @@ const pessoa = {
   papel: 'Homem de Ferro',
 };
 
-console.log(pessoa);
+console.log(JSON.stringify(pessoa));
