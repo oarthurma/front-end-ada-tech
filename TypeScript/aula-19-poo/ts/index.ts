@@ -62,7 +62,7 @@ class Professor extends Pessoa {
   }
 
   ensinar() {
-    console.log("Ensinando...");
+    console.log("Ensinando... 🧑‍🏫");
   }
 }
 
