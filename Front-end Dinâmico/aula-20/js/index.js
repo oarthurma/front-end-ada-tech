@@ -1,6 +1,6 @@
 // Selecionar elementos HTML da nossa página utilizando o document
 
-//1. Pelo nome da tag
+//
 const todosP = document.getElementsByTagName("p");
 
 console.log(todosP);
@@ -10,4 +10,55 @@ const todosClasseParagrafo = document.getElementsByClassName("paragrafo");
 
 console.log(todosClasseParagrafo);
 
-// ! 27:40
+// 3. Pelo name da tag
+const emailInput = document.getElementsByName("email");
+
+console.log(emailInput);
+
+// 4. Pelo id da tag
+
+const jsLogoImg = document.getElementById("js-logo");
+
+console.log(jsLogoImg);
+
+// 5. Query Selector
+
+const imagem = document.querySelector("body > img#js-logo");
+
+console.log(imagem);
+
+const paragrafo = document.querySelectorAll("p");
+console.log(paragrafo);
+
+console.clear();
+
+// Acessando/alterando o conteúdo HTML das tags
+
+const primeiroParagrafo = document.querySelector("p.paragrafo");
+
+console.log(primeiroParagrafo);
+
+console.log("textContent:", primeiroParagrafo.textContent);
+console.log("innerHTML:", primeiroParagrafo.innerHTML);
+
+primeiroParagrafo.innerHTML = "<strong>Outra coisa</strong>";
+
+console.clear();
+
+emailInput[0].value = "wallison@gmail.com";
+
+// Criando elementos na página HTML
+
+const listaUl = document.querySelector("ul#lista");
+const listaLis = document.querySelectorAll("ul > li");
+
+const novaTagLi = document.createElement("li"); // criando uma tag li vazia
+novaTagLi.textContent = "Segundo item"; // adicionando um texto dentro da tag li
+
+console.log(novaTagLi);
+
+// listaUl.appendChild(novaTagLi);
+
+listaUl.insertBefore(novaTagLi, listaLis[1]);
+
+listaUl.removeChild(novaTagLi);
