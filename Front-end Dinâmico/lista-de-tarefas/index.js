@@ -101,4 +101,3 @@ form.addEventListener('submit', (event) => {
 })
 
 
-// 1:18:00 de 1:27:00
