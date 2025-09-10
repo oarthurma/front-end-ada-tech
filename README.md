@@ -8,7 +8,7 @@
 
 Este repositório contém a **base fundamental** para o desenvolvimento com Angular, abordando desde os conceitos mais básicos até tecnologias avançadas. Atualmente estou no **Nível II** da formação Front-End Angular, construindo uma base sólida antes de mergulhar no framework Angular.
 
-O objetivo é dominar completamente **HTML semântico**, **CSS moderno**, **JavaScript ES6+** e **TypeScript** para posteriormente aplicar esses conhecimentos no desenvolvimento de aplicações Angular robustas.
+O objetivo é dominar completamente **HTML semântico**, **CSS moderno**, **JavaScript ES6+** e **TypeScript** para posteriormente aplicar esses conhecimentos no desenvolvimento de aplicações Angular.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -19,20 +19,18 @@ O objetivo é dominar completamente **HTML semântico**, **CSS moderno**, **Java
 - ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
 - ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-**🔮 Em breve:** Angular será adicionado quando chegar nessa etapa da formação!
-
 ## 🎯 Objetivos do Projeto
 
 - ✅ **Dominar HTML Semântico**: Estruturação correta usando HTML5
 - ✅ **CSS Moderno**: Layouts responsivos com Flexbox e Grid
-- ✅ **JavaScript ES6+**: Programação funcional e orientada a objetos  
+- ✅ **JavaScript ES6+**: Programação funcional e orientada a objetos
 - ✅ **TypeScript**: Tipagem estática e desenvolvimento seguro
 - ✅ **APIs e Assincronismo**: Requisições HTTP e manipulação de dados
-- ⏳ **Angular**: Framework será integrado em etapas futuras
 
 ## 📚 Conceitos Abordados
 
 ### 🟡 JavaScript Fundamentals
+
 - ✅ Variáveis, constantes e arrays
 - ✅ Estruturas condicionais (if/else, ternários, switch)
 - ✅ Operadores lógicos (&&, ||, !)
@@ -40,6 +38,7 @@ O objetivo é dominar completamente **HTML semântico**, **CSS moderno**, **Java
 - ✅ Funções de alta ordem (map, filter, reduce, every, some)
 
 ### 🟠 HTML5 & CSS3
+
 - ✅ Tags semânticas do HTML5
 - ✅ Tabelas e formulários
 - ✅ Box model, display e position
@@ -48,6 +47,7 @@ O objetivo é dominar completamente **HTML semântico**, **CSS moderno**, **Java
 - ✅ Cores, backgrounds e tipografia
 
 ### 🔵 Programação Avançada
+
 - ✅ Programação Orientada a Objetos (POO)
 - ✅ Classes, herança e polimorfismo
 - ✅ Encapsulamento, getters e setters
@@ -56,6 +56,7 @@ O objetivo é dominar completamente **HTML semântico**, **CSS moderno**, **Java
 - ✅ Objetos literais
 
 ### 🟣 Assincronismo & APIs
+
 - ✅ Programação síncrona vs assíncrona
 - ✅ Callbacks, Promises e async/await
 - ✅ JSON: estrutura e boas práticas
@@ -63,21 +64,13 @@ O objetivo é dominar completamente **HTML semântico**, **CSS moderno**, **Java
 - ✅ Requisições HTTP assíncronas
 
 ### 🔴 TypeScript
+
 - ✅ Configuração e instalação
 - ✅ Tipagens e utility types
 - ✅ Segurança de código com tipos estáticos
 
-### ⚡ Angular (Em preparação)
-- 🔄 Configuração de projeto Angular
-- 🔄 Componentes e reutilização
-- 🔄 Services e injeção de dependência
-- 🔄 Módulos e roteamento
-- 🔄 HttpClient e Observables
-- 🔄 Autenticação JWT e Google API
-- 🔄 Diretivas e data binding
-- 🔄 Pipes personalizados
-
 ### 🟢 Versionamento
+
 - ✅ Git: conceitos e funcionamento
 - ✅ Inicialização de repositórios
 - ✅ git diff, commit, log
@@ -87,6 +80,7 @@ O objetivo é dominar completamente **HTML semântico**, **CSS moderno**, **Java
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
+
 - **Node.js** (versão 16 ou superior)
 - **npm** ou **yarn**
 - **Git** instalado
@@ -94,17 +88,20 @@ O objetivo é dominar completamente **HTML semântico**, **CSS moderno**, **Java
 ### Instalação e Execução
 
 1. **Clone o repositório**
+
 ```bash
 git clone git@github.com:oarthurma/front-end-ada-tech.git
 cd front-end-ada-tech
 ```
 
 2. **Instale as dependências**
+
 ```bash
 npm install
 ```
 
 3. **Para projetos TypeScript**
+
 ```bash
 # Compilar TypeScript
 npx tsc
@@ -114,6 +111,7 @@ npx tsc --watch
 ```
 
 4. **Executar servidor local** (se houver arquivos HTML)
+
 ```bash
 # Usando Python (se instalado)
 python -m http.server 8000
@@ -126,19 +124,14 @@ npx http-server
 ```
 
 5. **Acesse no navegador**
+
 ```
 http://localhost:8000
 ```
 
 ## 🎓 Sobre o Caixaverso
 
-Este projeto faz parte do **Caixaverso**, programa de formação em tecnologia da **Ada Tech** em parceria com a CEF. 
-
-**Formação Front-End Angular - Nível II**
-- 📍 **Status atual**: Fundamentos (HTML, CSS, JS, TS)
-- 🎯 **Próximos passos**: Framework Angular
-- 🏆 **Objetivo**: Desenvolvedor Angular completo
-
+Este projeto faz parte do **Caixaverso**, programa de formação em tecnologia da **Ada Tech** em parceria com a CEF.
 
 ## 👨‍💻 Autor
 
@@ -151,12 +144,11 @@ Este projeto faz parte do **Caixaverso**, programa de formação em tecnologia d
 
 ```
 Fundamentos   ████████████████████████████████ 100%
-HTML5         ████████████████████████████████ 100%  
+HTML5         ████████████████████████████████ 100%
 CSS3          ████████████████████████████████ 100%
 JavaScript    ████████████████████████████████ 100%
 TypeScript    ████████████████████████████████ 100%
 Git           ████████████████████████████████ 100%
-Angular       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0%
 ```
 
 ## 📄 Licença
@@ -170,9 +162,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 <div align="center">
-  
-**🎯 Rumo ao domínio completo do Angular!**
 
-Desenvolvido com ❤️ durante a formação **Caixaverso** - Ada Tech
+Desenvolvido com ❤️ durante o programa **Caixaverso** - Ada Tech
 
 </div>
